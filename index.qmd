@@ -10,6 +10,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/emmasaaty
+    - icon: linkedin
+      text: LinkedIn
+      href: www.linkedin.com/in/emma-saaty-32a157222
 ---
 
 Hi, I'm Emma and I am a Biological Anthropology and Journalism student at George Washington University.
@@ -17,18 +20,14 @@ Hi, I'm Emma and I am a Biological Anthropology and Journalism student at George
 
 ## Education
 
-George Washington University
-  GPA:4.0
-  Honors: Presidential Scholarship, Dean's List
+George Washington University, GPA: 4.0, Honors: Presidential Scholarship, Dean's List
 
-McLean High School
-  GPA:4.0
-  Activities: Choir, National Honor Society
+McLean High School, GPA: 4.0, Activities: Choir, National Honor Society
 
 
 ## Work Experience
 
-GWU Undergraduate Researcher
+GWU Undergraduate Researcher: Center for the Advanced Study of Human Paleobiology, Skeletal Biology Lab
 
 Smithsonian Institution Center for Folklife and Cultural Heritage Intern
 
