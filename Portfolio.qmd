@@ -1,5 +1,29 @@
 ---
 title: "Portfolio"
+about:
+  template: solana
+  links:
+    - text: Planet Forward Article
+      href: https://www.planetforward.org/idea/buzz-robotic-bees
+    - text: C.A.R.T. Archaeology Article
+      href: https://cartarchaeology.wordpress.com/2018/12/01/north-american-gray-stoneware/
+    - icon: github
+      text: Github
+      href: https://github.com/emmasaaty
 ---
 
-Hi there, this is my portfolio.
+## Planet Forward Article
+
+The Buzz About Robotic Bees, 12/2/2022
+
+Feature Published by Planet Forward
+
+Summary: Robotic bees are being developed to study buzz pollination and help support the conservation of declining bee populations across the globe.
+
+## C.A.R.T. Archaeology Article
+
+North American Gray Stoneware, 12/1/2018
+
+Article Published by C.A.R.T. Archaeology Blog
+
+Summary: North American Stoneware was first produced in the English colonies of North America in the early 1700s, and was heavily influenced by British and German traditions. 
