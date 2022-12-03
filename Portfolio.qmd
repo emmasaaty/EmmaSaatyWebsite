@@ -1,7 +1,8 @@
 ---
 title: "Portfolio"
 about:
-  template: solana
+  template: trestles
+  image: emmaresume.jpeg
   links:
     - text: Planet Forward Article
       href: https://www.planetforward.org/idea/buzz-robotic-bees
