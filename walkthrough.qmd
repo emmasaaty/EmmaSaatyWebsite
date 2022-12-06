@@ -1,0 +1,117 @@
+---
+title: "Analysis Walkthrough"
+author: "Emma Saaty"
+editor: visual
+format:
+  html:
+    self-contained: true
+    code-fold: true
+    code-tools: true
+---
+
+First we will load our libraries
+
+```{r}
+library(tidyverse)
+library(lubridate)
+```
+
+Run this line of code to load the data for the analysis
+
+```{r}
+housesales <- ggplot2::txhousing
+
+```
+
+Look at the data set
+
+```{r}
+housesales
+```
+
+Filter to return only results from 2015 by putting the house sale data set title followed by a pipe and then filter by the column year and 2015.
+
+```{r}
+
+housesales %>%
+  filter(year == 2015)
+```
+
+Filter the results from 2010 on by filtering the column year with a greater than or equal sign for 2010. This will give you all of the data from 2010-2015.
+
+```{r}
+
+housesales %>%
+  filter(year >= 2010)
+
+```
+
+The "city" column contains the relevant city. Filter to return only results for Houston. Put in the housesale dataset title followed by a pipe then filter by the column city with double equals sign for "Houston", which will give you all of the data with Houston as the city.
+
+```{r}
+
+housesales %>%
+  filter(city == "Houston")
+
+```
+
+Filter for only where the city is Houston as above, and now also filter for only the year 2010. The results should give you 12 records, one for each month in 2010 for Houston. Put in the housesale dataset title followed by a pipe then filter by the column city with double equals sign for "Houston". Separate with a comma and then filter by the column year for 2010.
+
+```{r}
+
+housesales %>%
+  filter(city == "Houston" , year == 2010)
+
+```
+
+Build on what you've done above. Filter for only where the city is Houston as above, and the year is 2010. Now add a sort using arrange() to sort the results based on the number of home sales (the "sales" column) from most to least. Put in the housesale dataset title followed by a pipe then filter by the column city with double equals sign for "Houston". Separate with a comma and then filter by the column year for 2010, followed by a pipe. Use the arrange command with (desc) in parentheses to arrange by the sales column.
+
+```{r}
+
+housesales %>%
+  filter(city == "Houston" , year == 2010) %>%
+  arrange(desc(sales))
+
+```
+
+Piggyback on what you've done above. Do the same as before, only this time instead of Houston return records for Dallas. Put in the housesale dataset title followed by a pipe then filter by the column city with double equals sign for "Dallas". Separate with a comma and then filter by the column year for 2010, followed by a pipe. Use the arrange command with (desc) in parentheses to arrange by the sales column.
+
+```{r}
+
+
+housesales %>%
+  filter(city == "Dallas" , year == 2010) %>%
+  arrange(desc(sales))
+
+```
+
+Sometimes metrics like home sales have a seasonal quality to them, much like retail sales. There are times of year that are naturally more active, and others where it's slower. That means sometimes you'll want to isolate the same time period across multiple years to compare how it went based on similar times of year. Let's do that here: we're going to look only for sales that happened in the month of JUNE. Filter for the city is Dallas, and the month is June (the number 6). Put in the housesale dataset title followed by a pipe then filter by the column city with double equals sign for "Dallas". Separate with a comma and filter by the column month for "6".
+
+```{r}
+
+housesales %>%
+  filter(city == "Dallas" , month == 6)
+
+```
+
+Build on what we've done above. Now that we have June numbers for Dallas for every year, arrange the results by sales from highest-to-lowest to show what year had the highest June sales. Put in the housesale dataset title followed by a pipe then filter by the column city with double equals sign for "Dallas". Separate with a comma and then filter by the column month for "6", followed by a pipe. Use the arrange command with (desc) in parentheses to arrange by the sales column.
+
+```{r}
+
+
+housesales %>%
+  filter(city == "Dallas" , month == 6) %>%
+  arrange(desc(sales))
+
+```
+
+Now do the same as before, but this time instead of Dallas, show results for Corpus Christi. Put in the housesale dataset title followed by a pipe then filter by the column city with double equals sign for "Corpus Christi". Separate with a comma and then filter by the column month for "6", followed by a pipe. Use the arrange command with (desc) in parentheses to arrange by the sales column.
+
+```{r}
+
+
+housesales %>%
+  filter(city == "Corpus Christi" , month == 6) %>%
+  arrange(desc(sales))
+
+```

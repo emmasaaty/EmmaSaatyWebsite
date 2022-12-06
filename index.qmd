@@ -5,7 +5,7 @@ about:
   image: JPEG_6653 copy.jpg
   links:
     - icon: twitter
-      text: twitter
+      text: Twitter
       href: https://twitter.com/EmmaS56963804
     - icon: github
       text: Github
