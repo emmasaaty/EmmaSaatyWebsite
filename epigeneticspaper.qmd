@@ -1,0 +1,35 @@
+---
+title: "Epigenetic Testing and Preterm Birth Paper"
+author: "Emma Saaty"
+editor: visual
+---
+
+#### **Summary:**
+
+This article was written for my science journalism course in the spring of 2022. Preterm birth has been a leading concern in the medical world for decades, and a genetic research team may have unlocked a key biological factor that could help to predict and prevent preterm births in the future. I interviewed the principal investigator on the study, along with another expert on infant health, and a father who has been touched by the effects of preterm birth. This article will teach you about the biology behind preterm birth and the impact that genetic research can have on this issue across the globe.
+
+## **Preventing Preterm Birth may be Possible with New Epigenetic Test**
+
+Over 100 epigenetic biomarkers have been found to predict preterm birth susceptibility, which could lead to the early detection and possible prevention of preterm births and the health impacts that often accompany them, a new study finds.
+
+Preterm birth is a major cause of infant mortality, affecting one out of every 10 live births across the globe.  Researchers are hopeful that epigenetic testing may be the key to diagnosing and treating these high risk births before they happen in the early stages of pregnancy, according to a [study](https://www.nature.com/articles/s41598-022-07262-9.pdf) published on March 1 in Nature's *Scientific Reports*.
+
+"If you think about all of the genes in your DNA, what turns them on and off isn't the DNA sequence, but it's the molecular structure around your genes known as epigenetics," says Dr. Michael Skinner, a lead researcher on the study and a professor of biology at Washington State University.  "These chemical markers are equally if not more important than genetics in the regulation of biological processes like reproduction." 
+
+In this study, researchers took cheek swabs from 40 mother, father, and child groups shortly after the children were born.  They compared the DNA of those who had preterm births to those who carried to full term, and found that there were distinct epigenetic differences between the two groups.  Each member of the family groups who experienced preterm births had very similar epigenetic mutations, indicating that these biomarkers can be passed between generations. 
+
+"If your mother had a premature birth, you will have a susceptibility to have a premature birth, and you will pass it on to your own daughter as well," says Skinner, adding that epigenetic traits have been observed to be inherited for hundreds of generations in other organisms. 
+
+Although mothers and daughters had the most similarities in their biomarker regions, fathers were also found to contribute to premature birth susceptibility.  Numerous environmental toxins, diet variations, and other forms of parental early life exposure could be driving these epigenetic inheritances, and determining these risk factors is next on Skinner's list of research topics relating to his biomarker findings. 
+
+The ultimate goal of this study was to develop a simple and widely available epigenetic test that would be able to detect preterm birth and reduce adverse effects.  Previous research shows that children who are born preterm have a higher likelihood of developing cognitive disabilities and physiological impairments in the future.
+
+"Preterm birth is incredibly frequent and costly to families and society in general," says Dr. Gary Shaw, a principal investigator at the March of Dimes Prematurity Research Center at Stanford University.  "The epigenome is absolutely a great place for these researchers to be looking, however all of this will have to be verified in larger and more clinically robust trials before testing becomes broadly available."
+
+There are already numerous medical interventions and obstetrical management methods available to treat and prevent preterm birth that are currently underutilized, as parents and healthcare workers are largely unaware of preterm risk.
+
+"The state of maternal health in this country is not fine," Charles Johnson, a father, told [March of Dimes](https://www.marchofdimes.org/mission-stories/meet-charles-johnson.aspx) after he lost his preterm daughter to complications at birth. "People walking into what they expect to be the happiest day of their lives and not living to raise their children, or their babies not coming home---it's not fine."
+
+The ability to epigenetically test for susceptibility in the first trimester of pregnancy would have profound impacts on society, allowing for more effective healthcare practices and increasing infant survival rates.  While there are numerous factors that still need to be studied before these tests can be implemented throughout clinical settings, this research provides a promising starting point.
+
+"We won't necessarily be able to fix the problem of preterm birth," says Skinner, "but I am confident that these epigenetic biomarkers will enable us to treat it." 

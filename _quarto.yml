@@ -11,6 +11,10 @@ website:
       - about.qmd
       - Portfolio.qmd
       - walkthrough.qmd
+      - href: epigeneticspaper.qmd
+        text: Epigenetics Paper
+      - href: roboticbees.qmd
+        text: Robotic Bees Article
   page-footer: 
     left: "Copyright 2022, Emma Saaty" 
     right: 

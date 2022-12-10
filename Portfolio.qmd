@@ -2,7 +2,6 @@
 title: "Portfolio"
 about:
   template: trestles
-  image: emmaresume.jpeg
   links:
     - text: Planet Forward Article
       href: https://www.planetforward.org/idea/buzz-robotic-bees
@@ -14,7 +13,7 @@ about:
 
 ## Planet Forward Article
 
-The Buzz About Robotic Bees, 12/2/2022
+[The Buzz About Robotic Bees](https://www.planetforward.org/idea/buzz-robotic-bees), 12/2/2022
 
 Feature Published by Planet Forward
 
@@ -22,7 +21,7 @@ Summary: Robotic bees are being developed to study buzz pollination and help sup
 
 ## C.A.R.T. Archaeology Article
 
-North American Gray Stoneware, 12/1/2018
+[North American Gray Stoneware](https://cartarchaeology.wordpress.com/2018/12/01/north-american-gray-stoneware/), 12/1/2018
 
 Article Published by C.A.R.T. Archaeology Blog
 
@@ -30,7 +29,7 @@ Summary: North American Stoneware was first produced in the English colonies of 
 
 ## Briana Pobiner Profile Article
 
-Briana Pobiner: Breaking Ground in More Ways Than One
+[Briana Pobiner: Breaking Ground in More Ways Than One](https://docs.google.com/document/d/17zwEX9QUobvURcpYCGtbj1R74hXDZ8ztxpbR-5xWlx8/edit)
 
 Article written for science journalism course at GW, 4/12/2022
 

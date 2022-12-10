@@ -17,13 +17,11 @@ about:
 
 Hi, I'm Emma and I am a Biological Anthropology and Science Journalism student at George Washington University.
 
-
 ## Education
 
 George Washington University, GPA: 4.0, Honors: Presidential Scholarship, Dean's List
 
 McLean High School, GPA: 4.0, Activities: Choir, National Honor Society
-
 
 ## Work Experience
 
@@ -33,3 +31,6 @@ Smithsonian Institution Center for Folklife and Cultural Heritage Intern
 
 Lee-Fendall House Collections Management Intern
 
+## Resume
+
+![](emmaresume.jpeg)
