@@ -10,6 +10,8 @@ website:
         text: Home
       - about.qmd
       - Portfolio.qmd
+      - href: emmaresume.pdf
+        text: Resume
       - walkthrough.qmd
       - href: epigeneticspaper.qmd
         text: Epigenetics Paper
