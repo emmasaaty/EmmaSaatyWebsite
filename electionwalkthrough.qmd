@@ -9,7 +9,6 @@ format:
     code-tools: true
 ---
 
-
 ```{r setup, include=FALSE, warning=FALSE, message=FALSE}
 
 
@@ -30,10 +29,7 @@ joined_vacomparison <- readRDS(here("processed_data", "joined_vacomparison.rds")
 
 ```
 
-
 # Comparing Virgnia Gov vs. Prez
-
-
 
 ```{r}
 
@@ -53,15 +49,14 @@ biggestyoungkinlosses <- joined_vacomparison %>%
 DT::datatable(biggestyoungkinlosses)
 ```
 
-
 ```{r}
 ggplot(biggestyoungkinlosses, aes (x = reorder(locality, RminusD), y = RminusD))+
   geom_col(color = "#9ebcda")+
   scale_y_reverse(name = "Percentage of Votes Youngkin Lost to Mcauliffe")+
-  scale_x_discrete(name = "Localities")
+  scale_x_discrete(name = "Localities")+
+theme(axis.text.x = element_text(angle = 10))
 
 ```
-
 
 ```{r}
 youngkin_over_trump <- joined_vacomparison %>%
@@ -73,14 +68,13 @@ youngkin_over_trump <- joined_vacomparison %>%
 DT::datatable(youngkin_over_trump)
 ```
 
-
 ```{r}
 ggplot(youngkin_over_trump, aes (x = reorder(locality, youngkin_minus_trump), y = youngkin_minus_trump))+
   geom_col(color = "#9ebcda")+
   scale_y_continuous(name = "Percent of Youngkin's Votes over Trump's")+
-  scale_x_discrete(name = "Localities")
+  scale_x_discrete(name = "Localities")+
+theme(axis.text.x = element_text(angle = 10))
 ```
-
 
 ```{r}
 biden_over_mcauliffe <- joined_vacomparison %>%
@@ -92,11 +86,10 @@ biden_over_mcauliffe <- joined_vacomparison %>%
 DT::datatable(biden_over_mcauliffe)
 ```
 
-
 ```{r}
 ggplot(biden_over_mcauliffe, aes (x = reorder(locality, biden_minus_mcauliffe), y = biden_minus_mcauliffe))+
   geom_col(color = "#9ebcda")+
   scale_y_continuous(name = "Percent of Biden's Votes over Mcauliffe's")+
-  scale_x_discrete(name = "Localities")
+  scale_x_discrete(name = "Localities")+
+  theme(axis.text.x = element_text(angle = 10))
 ```
-

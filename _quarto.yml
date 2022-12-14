@@ -13,7 +13,7 @@ website:
       - href: emmaresume.pdf
         text: Resume
       - walkthrough.qmd
-      - va_elex_project/electionwalkthrough.qmd
+      - electionwalkthrough.qmd
       - href: epigeneticspaper.qmd
         text: Epigenetics Paper
       - href: roboticbees.qmd
